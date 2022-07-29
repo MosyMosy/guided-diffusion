@@ -10,6 +10,8 @@ import numpy as np
 import torch as th
 import torch.distributed as dist
 
+import sys
+sys.path.append('..')
 from guided_diffusion import dist_util, logger
 from guided_diffusion.script_util import (
     NUM_CLASSES,
